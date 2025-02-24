@@ -67,8 +67,13 @@ public class SimpleStringBuffer {
         }
     }
 
+    /**
+     * Returns the size of the buffer.
+     *
+     * @return the number of characters stored
+     */
     public int getSize() {
-        throw new UnsupportedOperationException("Unimplemented method 'getSize'");
+        return buffer.length();
     }
 
     /**

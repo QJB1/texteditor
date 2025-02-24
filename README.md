@@ -14,7 +14,8 @@
 
 ## Changelog
 
-daf151f (HEAD -> main, origin/main, origin/HEAD) Added TUI, buffer, and tests
+abb97e1 (HEAD -> main, origin/main, origin/HEAD) Fixed function naming issues, from moveForwards to moveRight
+daf151f Added TUI, buffer, and tests
 32a9049 Project files
 02dc921 initial commit
 
