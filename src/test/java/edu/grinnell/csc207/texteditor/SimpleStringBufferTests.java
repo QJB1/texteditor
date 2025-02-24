@@ -48,26 +48,26 @@ public class SimpleStringBufferTests {
         buffer.insert('Y');
         buffer.insert('Z');
 
-        buffer.moveBackwards();
+        buffer.moveLeft();
         assertEquals(2, buffer.getCursorPosition());
 
-        buffer.moveBackwards();
+        buffer.moveLeft();
         assertEquals(1, buffer.getCursorPosition());
 
-        buffer.moveBackwards();
+        buffer.moveLeft();
         assertEquals(0, buffer.getCursorPosition());
 
-        buffer.moveBackwards(); // Should not move beyond start
+        buffer.moveLeft(); // Should not move beyond start
         assertEquals(0, buffer.getCursorPosition());
 
-        buffer.moveForwards();
+        buffer.moveRight();
         assertEquals(1, buffer.getCursorPosition());
 
-        buffer.moveForwards();
-        buffer.moveForwards();
+        buffer.moveRight();
+        buffer.moveRight();
         assertEquals(3, buffer.getCursorPosition());
 
-        buffer.moveForwards(); // Should not move beyond end
+        buffer.moveRight(); // Should not move beyond end
         assertEquals(3, buffer.getCursorPosition());
     }
 

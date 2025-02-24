@@ -14,7 +14,9 @@
 
 ## Changelog
 
-_(TODO: fill me in with a log of your committed changes)_
+daf151f (HEAD -> main, origin/main, origin/HEAD) Added TUI, buffer, and tests
+32a9049 Project files
+02dc921 initial commit
 
 ## Part 2: Analyzing the Simple String Buffer – Complexity Analysis of `insert` in `SimpleStringBuffer`
 
@@ -43,5 +45,3 @@ Justification:
 Since `String` is immutable, every modification creates a new string, 
 requiring O(n) copying of existing characters. This makes repeated insertions inefficient, 
 especially for large text buffers.
-
-
