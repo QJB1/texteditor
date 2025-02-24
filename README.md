@@ -14,7 +14,8 @@
 
 ## Changelog
 
-abb97e1 (HEAD -> main, origin/main, origin/HEAD) Fixed function naming issues, from moveForwards to moveRight
+baecf98 (HEAD -> main, origin/main, origin/HEAD) Fixed getSize() function
+abb97e1 Fixed function naming issues, from moveForwards to moveRight
 daf151f Added TUI, buffer, and tests
 32a9049 Project files
 02dc921 initial commit

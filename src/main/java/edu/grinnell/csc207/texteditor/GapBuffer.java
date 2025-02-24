@@ -119,7 +119,8 @@ public class GapBuffer {
         char[] newBuffer = new char[newSize];
 
         System.arraycopy(buffer, 0, newBuffer, 0, gapStart);
-        System.arraycopy(buffer, gapEnd, newBuffer, newSize - (buffer.length - gapEnd), buffer.length - gapEnd);
+        System.arraycopy(buffer, gapEnd, newBuffer, 
+                        newSize - (buffer.length - gapEnd), buffer.length - gapEnd);
 
         gapEnd = newSize - (buffer.length - gapEnd);
         buffer = newBuffer;
